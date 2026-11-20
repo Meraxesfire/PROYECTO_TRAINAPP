@@ -1,0 +1,40 @@
+# Secretos y entorno
+.env
+.env.*
+!.env.example
+
+# Dependencias
+node_modules/
+.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# Next.js / build
+.next/
+out/
+build/
+dist/
+*.tsbuildinfo
+next-env.d.ts
+
+# Pruebas y cobertura
+coverage/
+playwright-report/
+test-results/
+
+# Vercel y Supabase local
+.vercel
+supabase/.branches/
+supabase/.temp/
+
+# Sistema / editores
+.DS_Store
+*.pem
+*.log
+.idea/
+.vscode/*
+!.vscode/extensions.json
